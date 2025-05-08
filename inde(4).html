@@ -1,0 +1,30 @@
+<div id="flavors" class="page">
+    <h2>Top Secret Flavors</h2>
+    <p>These experimental flavors will give you superpowers! (Or just a sugar rush)</p>
+    
+    <div class="flavor-grid">
+        <div class="flavor-card" onclick="alert('POW! You got invisibility for 5 minutes!')">
+            <div class="flavor-emoji">👻</div>
+            <h3>Phantom Pistachio</h3>
+            <p>Makes you invisible to broccoli</p>
+        </div>
+        <div class="flavor-card" onclick="alert('ZOOM! You can now run at 2x speed!')">
+            <div class="flavor-emoji">⚡</div>
+            <h3>Lightning Lime</h3>
+            <p>Super speed boost</p>
+        </div>
+        <div class="flavor-card" onclick="alert('SPLASH! You can now breathe underwater!')">
+            <div class="flavor-emoji">🧜‍♂️</div>
+            <h3>Mermaid Mint</h3>
+            <p>Underwater breathing</p>
+        </div>
+        <div class="flavor-card" onclick="alert('POOF! You turned into a cat for 30 seconds!')">
+            <div class="flavor-emoji">🐱</div>
+            <h3>Catnip Caramel</h3>
+            <p>Temporary feline powers</p>
+        </div>
+    </div>
+    
+    <audio id="flavorSound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+    <button class="btn" onclick="document.getElementById('flavorSound').play(); alert('EMERGENCY FLAVOR DEPLOYED!')">Emergency Flavor</button>
+</div>
